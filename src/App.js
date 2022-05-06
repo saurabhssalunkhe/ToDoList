@@ -47,7 +47,7 @@ function App() {
       
       const newItem = {id: new Date().getTime().toString(), name}
       setList([...list].concat(newItem))
-      showAlert(true, `${name} in added in ToDo's`, 'success')
+      showAlert(true, `${name} added in ToDo's`, 'success')
       setName('')
     }
    // console.log('subithandler called')
